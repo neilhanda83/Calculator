@@ -1,0 +1,4 @@
+2024-09-24 21:51:53.603 [main] INFO  org.example.Main - Start of Execution
+2024-09-24 21:52:02.390 [main] INFO  org.example.Main - START OP: Power
+2024-09-24 21:52:02.398 [main] INFO  org.example.Main - [POWER OPERATION] [SUCCESS] 20.0^2.0 = 400.0
+2024-09-24 21:52:02.398 [main] INFO  org.example.Main - END OP: Power
