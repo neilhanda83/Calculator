@@ -17,7 +17,7 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testFactorial() {
+    public void tegstFactorial() {
         int result = Main.Factorial(5);
         Assert.assertEquals(120, result);
 
@@ -27,6 +27,22 @@ public class CalculatorTest {
         result = Main.Factorial(1);
         Assert.assertEquals(1, result);
     }
+
+    @Test
+    public void testFactorial() {
+        int result = Main.Factorial(5);
+        Assert.assertEquals(120, result);
+
+        result = Main.Factorial(0);
+        Assert.assertEquals(1, result);
+
+        result = Main.Factorial(1);
+        Assert.assertEquals(1, result);
+
+        result = Main.Factorial(4);
+        Assert.assertNotEquals(100, result);
+    }
+
 
     @Test
     public void testNaturalLog() {

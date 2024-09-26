@@ -27,7 +27,6 @@ public class Main {
             else {
                 switch (op) {
                     case 1:
-                        System.out.println("You Chose Square Root!!");
                         System.out.print("Enter Operand: ");
                         num1 = scan.nextDouble();
                         System.out.println("Result is: " + SquareRoot(num1));
