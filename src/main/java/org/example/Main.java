@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("------------Scientific Calculator--------------");
         do {
-//            this is comment5
+//            this is comment6
             System.out.println("Choices of Operations:");
             System.out.println("1. Square Root");
             System.out.println("2. Factorial");
